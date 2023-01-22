@@ -1,0 +1,15 @@
+print("database information")
+default': {
+        'ENGINE': 'django.db.backends.postgres',
+        'NAME': 'company',
+        'USER':'postgres',
+        'PASSWORD':'12345678',
+
+
+table name=company_info
+
+id=int,primary keys
+name=text 
+age=int
+address=char(50)
+salary=real
